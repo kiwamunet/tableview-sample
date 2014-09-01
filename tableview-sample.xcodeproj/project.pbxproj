@@ -21,6 +21,7 @@
 		8D89F18219B3F892007AB062 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D89F16419B3F892007AB062 /* UIKit.framework */; };
 		8D89F18A19B3F892007AB062 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D89F18819B3F892007AB062 /* InfoPlist.strings */; };
 		8D89F18C19B3F892007AB062 /* tableview_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D89F18B19B3F892007AB062 /* tableview_sampleTests.m */; };
+		8D89F19A19B3FA06007AB062 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D89F19919B3FA06007AB062 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8D89F18719B3F892007AB062 /* tableview-sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tableview-sampleTests-Info.plist"; sourceTree = "<group>"; };
 		8D89F18919B3F892007AB062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D89F18B19B3F892007AB062 /* tableview_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableview_sampleTests.m; sourceTree = "<group>"; };
+		8D89F19819B3FA06007AB062 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		8D89F19919B3FA06007AB062 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		8D89F16619B3F892007AB062 /* tableview-sample */ = {
 			isa = PBXGroup;
 			children = (
+				8D89F19819B3FA06007AB062 /* ViewController2.h */,
+				8D89F19919B3FA06007AB062 /* ViewController2.m */,
 				8D89F16F19B3F892007AB062 /* AppDelegate.h */,
 				8D89F17019B3F892007AB062 /* AppDelegate.m */,
 				8D89F17219B3F892007AB062 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D89F17719B3F892007AB062 /* ViewController.m in Sources */,
+				8D89F19A19B3FA06007AB062 /* ViewController2.m in Sources */,
 				8D89F17119B3F892007AB062 /* AppDelegate.m in Sources */,
 				8D89F16D19B3F892007AB062 /* main.m in Sources */,
 			);
